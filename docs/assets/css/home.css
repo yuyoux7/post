@@ -1,0 +1,11 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: auto;
+    background: gray;
+    background-size: cover;
+    background-position: left top;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
