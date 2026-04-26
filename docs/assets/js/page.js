@@ -24,7 +24,7 @@ function cls() {
     ctx.fillRect(0, 0, cube.width, cube.height)
 }
 function screen(point) {
-    return { x: (point.x + 1) / 2 * cube.width, y: (1 - (point.y + 1) / 2) * cube.width }
+    return { x: (point.x + 1) / 2 * cube.width, y: (1 - (point.y + 1) / 2) * cube.height }
 }
 function toTwoDimension({ x, y, z }) {
     return { x: x / z, y: y / z }
